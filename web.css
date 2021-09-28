@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.header1 {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 30px;
+    font-family: timesnewroman;
+}
+
+.header1:hover {
+    background-color: white;
+    font-size: 30px;
+    font-family: timesnewroman;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.camera {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    filter: sepia;
+}
+
+.slideshow-container {
+    max-width: 1500px;
+    position: absolute;
+    width: 1355px;
+    margin: 0;
+  }
+  
+  /* Caption text */
+
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .roll {
+    filter: grayscale(100%);
+  }
